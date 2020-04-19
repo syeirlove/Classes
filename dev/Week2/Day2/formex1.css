@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto;
+    background-color: lightgray;
+    margin: 20px 20px;
+   
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 20px 10px 20px;
+    width: 600px;
+}
+
+h1 {
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1::before {
+    background-color: black;
+    content: "";
+    display: block;
+    height: 8px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    margin: 5px 25px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    margin: 0;
+    padding: 0 20px;
+    width: 600px;
+}
+
+fieldset {
+    border: none;
+    margin: auto 25px;
+    border-bottom: 2px solid black;
+    padding-left: 0px;
+    padding-bottom: 50px;
+}
+
+legend {
+    font-weight: normal;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+
+label {
+    color: darkgray;
+    display: inline-block;
+    font-weight: 60;
+    padding-top: 15px;
+    width: 200px;
+}
+
+::placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+
+div {
+    display: flex;
+}
+
+.geschlecht > .radio {
+    width: 135px;
+
+}
+
+.radio {
+    display: inline-flex;
+    float: right;
+    justify-content: center;
+    background: none;
+    border-radius: 2px;
+    border: 1px solid gray;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    font-weight: bold;
+    height: 20px;
+    line-height: 1;
+    margin-top: 10px;
+    padding: 8px 16px;
+    transition: all 0.1s ease-in-out;
+    width: 80px;
+}
+
+.radio:hover {
+    cursor: pointer;
+}
+
+input:not([type="radio"]){
+    border: none;
+    border-bottom: 2px solid lightgray;
+    display: inline-block;
+    padding: 8px 16px;
+    width: 300px;
+}
+
+input:checked + label {
+    background: none;
+    color: crimson;
+    border-bottom: 2px solid red;
+    box-shadow: none;
+}
+
+input[type="submit"]{
+    background: crimson;
+    border-radius : 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 40px;
+    margin-right: 60px;
+    margin-top: 50px;
+    width: 150px;
+
+}
+
+.radio_input {
+    clip: rect(0 0 0 0);
+    position: fixed;
+    left: 0;
+    top:0;    
+    width: 300px;
+    margin: auto;
+}
+
+
+input.long {
+    width : 40%;
+ }
+ 
+ 
+ 
+ input.short {
+    width : 9%;
+ }
+ 
