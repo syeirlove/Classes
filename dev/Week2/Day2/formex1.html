@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/Users/mebrahtuzemuitesfazghi/Desktop/powercoders/poco/classes/dev/Week2/Day4" rel="stylesheet">
+    <link href="/Users/mebrahtuzemuitesfazghi/Desktop/powercoders/poco/classes/dev/Week2/Day4/Roboto" rel="stylesheet">
+  
+    <link rel="stylesheet" href="formex1.css">
+
+</head>
+<body>
+    <header>
+        <h1> Profil</h1>
+        <h3>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</h3>
+    </header>
+
+    <form action="formEx1.html" method="POST">
+        <fieldset id="perönslichendaten">
+            <legend>Perönsliche Daten</legend>  
+            <label for="titel">Titel</label>
+            <input type="text" name="Titel" id="titel">
+            <br>
+            <label for="Vorname">Vorname</label>
+            <input type="Text" name="Vorname" id="Vorname"> <br>
+            <label for="Nachname">Nachname</label>
+            <input type="Text" name="Nachname" id="Nachname">
+            <br><br>
+            <div class="geschlecht">
+                <label for="geschlecht">Geschlecht</label>
+                <input type="radio" class="radio_input" name="geschlecht" id="W" value="weiblich" checked>
+                <label for="W" class="radio">W</label>
+                <input type="radio" class="radio_input" name="geschlecht" id="M" value="mannlich" checked>
+                <label for="M" class="radio">M</label>
+            </div>
+            <br>
+            <div id="sprache"> 
+                <label for="sprache">Sprache</label>
+                <input type="radio" class="radio_input" name="sprache" id="deutsch" value="DE" checked>
+                <label for="deutsch" class="radio">DE</label>
+                <input type="radio" class="radio_input" name="sprache" id="franzosisch" value="FR" checked>
+                <label for="franzosisch" class="radio">FR</label>
+                <input type="radio" class="radio_input" name="sprache" id="italien" value="IT" checked> 
+                <label for="italien" class="radio">IT</label>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset id="Kontakt">
+            <legend>Kontaktdaten</legend>    
+            <label for="tel">Telefon</label>
+            <input type="tel" id="tel" name="telefon" placeholder="required"/>
+        
+
+            <br>
+            <label for="mobile">Mobile</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="optional"/>
+            <br>
+            <label for="hauptnummer">Hauptnummer</label>
+            <input type="tel" id="hauptnummer" name="hauptnummer" placeholder="optional"/>
+            <br>
+            <label for="fax">Fax</label>
+            <input type="tel" id="fax" name="fax" placeholder="optional"/>
+            <br>
+            <label for="mail1">Mail 1</label>
+            <input type="adress" id="mail1" name="mail1" placeholder="optional"/>
+            <br>
+            <label for="mail2">Mail 2</label>
+            <input type="adress" id="mail2" name="mail2" placeholder="optional"/>
+        </fieldset>
+
+        <br>
+        <fieldset id="adress">
+            <legend>Adressdaten</legend>    
+            
+            <label for="firma">Firma</label>
+            <input type="text" id="firma" name="firma" placeholder="required"/>
+            <br>
+
+            <label for="susatz_firma">Susatz Firma</label>
+            <input type="text" id="susatz_firma" name="susatz_firma" placeholder="optional"/>
+            <br>
+            
+            <label for="homepage">Homepage</label>
+            <input type="text" id="homepage" name="homepage" placeholder="optional"/>
+            <br>
+            
+            <label for="Adresse">Adresse / Haus Nr</label>
+            <input class="list long" type="text" name="Adresse" value="" required>
+            <input class="list short" type="text" name="HausNr" value="" required>
+            <br>
+            
+            <label for="susatz_adress">Susatz Adresse</label>
+            <input type="text" id="susatz_adress" name="susatz_adress" placeholder="optional"/>
+            <br>
+            
+            <label for="postfach">Postfach</label>
+            <input type="text" id="postfach" name="postfach" placeholder="optional"/>
+            <br>
+            
+            <label for="PLZ">PLZ / Ort</label>
+                <input class="list short" type="text" name="PLZ" value="" required>
+                <input class="list long" type="text" name="Ort" value="" required>
+            <br>
+            
+            <label for="plz">Kanton / Land</label>
+            <input class="list short" type="text" name="Kanton" value="" placeholder="optional">     
+                <input class="list long" type="text" name="Land" value="" placeholder="optional">
+            
+            <br>
+            <input type="submit" value="Speichern">
+
+        </fieldset>
+    </form>
+</body>
+</html>
