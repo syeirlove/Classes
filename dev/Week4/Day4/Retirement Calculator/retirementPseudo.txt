@@ -1,0 +1,46 @@
+Problem Statement
+Create a program that determines how many years you have left 
+until retirement and the year you can retire. 
+It should prompt for your current age and the age you want to retire 
+and display the output based on the example given below.
+
+
+====================
+Sample Output
+What is your current age? 25
+At what age would you like to retire? 65
+You have 40 years left until you can retire.
+It's 2020, so you can retire in 2060.
+
+
+====================
+Constraints
+Figure out how to get the current year in JavaScript
+If the user enters incorrect data, such as string or character
+If the user enters retiring age (65)
+How to convert the input to numerical value before the calculations
+
+====================
+Inputs:
+current age
+retirement age
+
+
+Processes:
+calculate the retirement year
+calculate years left
+
+Outputs:
+retirement year
+years left
+
+====================
+Test Plan
+Input:
+   current age: 25
+   retirement age: 65
+
+Expected result:
+   years left: 40
+   retirement year: 2060
+

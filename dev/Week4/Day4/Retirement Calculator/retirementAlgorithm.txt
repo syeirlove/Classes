@@ -1,0 +1,20 @@
+Pseudocode
+RetirementCalculator
+Start
+1. Define variables for the nouns in the statement
+- What is your age? = currentAge
+- At what age would you like to retire? = retirementAge
+- You have 40 years left until you can retire = yearsLeft
+- Calculate yearsLeft by getting the difference between retirementAge and currentAge
+    yearsLeft = retirementAge - currentAge
+2. Prompt the user to enter currentAge saying "What is your current age?"
+3. Prompt the user to enter retirementAge saying "At what age would you like to retire?"
+4. Get the current year in JavaScript by defining it as var d = new Date() 
+5. Define the current year variable by assigning currentYear = d.getFullYear()
+6. Determine the retirement year by assigning its variable as retirementYear and 
+   calculate it by getting the sum of currentYear and yearsLeft
+    var retirementYear = currentYear + yearsLeft
+7. After variable assignments and calculations, the program should display the following
+    "You have (yearsLeft) years left until you can retire."
+    "It's (currentYear), so you can retire in (retirementYear)."
+End
